@@ -1,0 +1,24 @@
+{
+  "project_name": "My Leads",
+  "project_slug": "project",
+  "headless": true,
+  "max_pages_per_keyword": 5,
+  "pause_between_pages_seconds": [
+    1.5,
+    3.5
+  ],
+  "page_timeout_seconds": 30,
+  "enabled_sites": [],
+  "keep_failure_screenshots_days": 14,
+  "output": {
+    "format": "xlsx",
+    "folder": "output",
+    "file_name": "{project}_{date}",
+    "copy_to": [],
+    "write_latest": true,
+    "columns": [],
+    "only_listed_columns": false,
+    "include_all_leads_sheet": true,
+    "open_when_done": true
+  }
+}

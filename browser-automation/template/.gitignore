@@ -1,0 +1,7 @@
+.venv/
+data/
+state/
+logs/
+output/
+secrets.env
+__pycache__/
